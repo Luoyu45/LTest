@@ -9,3 +9,6 @@ from django.http import HttpResponse
 
 def getMovieOrder(request):
     return render(request, "../templates/superIndex/index.html")
+
+def calendar(request):
+    return render(request,"../templates/superIndex/calendar.html")
